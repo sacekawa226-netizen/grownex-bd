@@ -1,307 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="google-site-verification" content="HNxIJE15Bn8b-LYl_PyY1SaD9Gwogeilc5KE4AV_ELU">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="description" content="Grownex BD - Facebook, Instagram, Twitter/X and YouTube services.">
-<meta name="keywords" content="Grownex BD, Facebook followers, Instagram followers, YouTube services">
+<meta name="google-site-verification" content="HNxIJE15Bn8b-LYl_PyY1SaD9Gwogeilc5KE4AV_ELU">
 
-<title>Grownex BD | Social Media Growth</title>
+<meta name="description" content="Grownex BD - Facebook, Instagram and YouTube social media growth services.">
+<meta name="keywords" content="Facebook followers, Instagram followers, YouTube subscribers, social media growth, Grownex BD">
+
+<title>Grownex BD - Social Media Growth</title>
 
 <style>
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial,sans-serif;
+    font-family:Arial, sans-serif;
 }
 
 body{
-    background:#07111f;
-    color:white;
+    background:#ffffff;
+    color:#222;
 }
 
+/* HEADER */
 header{
-    background:#0b1728;
-    padding:20px 7%;
+    background:#d90429;
+    color:white;
+    padding:18px 6%;
     display:flex;
     justify-content:space-between;
     align-items:center;
     position:sticky;
     top:0;
-    z-index:100;
+    z-index:1000;
+    box-shadow:0 3px 12px rgba(0,0,0,0.15);
 }
 
 .logo{
-    font-size:28px;
+    font-size:25px;
     font-weight:bold;
-    color:#35d07f;
-}
-
-.logo span{
-    color:white;
 }
 
 nav a{
     color:white;
     text-decoration:none;
     margin-left:20px;
+    font-weight:bold;
 }
 
+/* HERO */
 .hero{
+    background:linear-gradient(135deg,#fff5f6,#ffffff);
     text-align:center;
     padding:80px 20px;
-    background:linear-gradient(135deg,#0b1728,#12364b);
 }
 
 .hero h1{
+    color:#d90429;
     font-size:45px;
     margin-bottom:15px;
 }
 
-.hero h1 span{
-    color:#35d07f;
-}
-
 .hero p{
-    color:#c8d3df;
+    font-size:18px;
+    color:#555;
     max-width:650px;
     margin:auto;
-    font-size:17px;
+    line-height:1.6;
 }
 
-.btn{
+.hero-btn{
     display:inline-block;
     margin-top:25px;
-    padding:14px 25px;
-    background:#35d07f;
-    color:#06120d;
+    background:#d90429;
+    color:white;
+    padding:14px 30px;
+    border-radius:8px;
     text-decoration:none;
     font-weight:bold;
-    border-radius:10px;
+    transition:0.3s;
 }
 
+.hero-btn:hover{
+    background:#a90320;
+}
+
+/* SECTION */
 section{
-    padding:60px 7%;
+    padding:60px 6%;
 }
 
-.title{
+.section-title{
     text-align:center;
+    color:#d90429;
+    font-size:32px;
     margin-bottom:35px;
 }
 
-.title h2{
-    font-size:30px;
-}
-
-.title p{
-    color:#9eabb9;
-    margin-top:8px;
-}
-
+/* SERVICE CARDS */
 .services{
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
     gap:20px;
+    max-width:1000px;
+    margin:auto;
 }
 
 .card{
-    background:#0e1c2d;
-    border:1px solid #1c3148;
-    border-radius:18px;
-    padding:25px;
-    transition:.3s;
-}
-
-.card:hover{
-    transform:translateY(-6px);
-    border-color:#35d07f;
-}
-
-.icon{
-    font-size:40px;
-    margin-bottom:15px;
+    background:white;
+    border:1px solid #eee;
+    border-top:5px solid #d90429;
+    border-radius:12px;
+    padding:30px 20px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
 }
 
 .card h3{
-    font-size:23px;
-    margin-bottom:15px;
+    color:#d90429;
+    margin-bottom:10px;
 }
 
-.card ul{
-    list-style:none;
-    color:#c5d0dc;
+.card p{
+    color:#666;
+    line-height:1.5;
 }
 
-.card li{
-    padding:8px 0;
-    border-bottom:1px solid #1c2b3d;
-}
-
-.price-section{
-    background:#091624;
-}
-
-.price-box{
-    max-width:800px;
-    margin:auto;
-    background:#0e1c2d;
-    padding:30px;
-    border-radius:18px;
-    border:1px solid #1c3148;
-}
-
-.price-box h3{
-    color:#35d07f;
-    margin:20px 0 10px;
-}
-
-.price-box p{
-    padding:7px 0;
-    color:#dce4ec;
-}
-
-.contact{
-    text-align:center;
-    background:#0b1728;
-}
-
-.whatsapp{
-    font-size:27px;
-    font-weight:bold;
-    color:#35d07f;
-    margin-top:15px;
-}
-
-/* ORDER SYSTEM */
-
+/* ORDER */
 .order-section{
-    padding:50px 20px;
-    background:#071426;
+    background:#fff5f6;
 }
 
 .order-box{
-    max-width:500px;
+    max-width:650px;
     margin:auto;
-    background:#10243d;
+    background:white;
     padding:30px;
-    border-radius:18px;
-    box-shadow:0 10px 30px rgba(0,0,0,.3);
+    border-radius:15px;
+    box-shadow:0 5px 25px rgba(0,0,0,0.10);
+    border:1px solid #eee;
 }
 
-.order-box h2{
-    text-align:center;
-    color:#00ff99;
-    margin-bottom:8px;
-}
-
-.order-box .subtitle{
-    text-align:center;
-    color:#ccc;
-    margin-bottom:25px;
-}
-
-.order-box label{
+label{
     display:block;
-    color:#fff;
-    margin:15px 0 7px;
     font-weight:bold;
+    margin-top:18px;
+    margin-bottom:7px;
 }
 
-.order-box select,
-.order-box input{
+select,
+input{
     width:100%;
-    padding:14px;
-    border:none;
-    border-radius:10px;
-    background:#fff;
-    color:#111;
+    padding:13px;
+    border:1px solid #ddd;
+    border-radius:7px;
     font-size:15px;
     outline:none;
 }
 
+select:focus,
+input:focus{
+    border-color:#d90429;
+}
+
 .payment-number{
-    margin-top:18px;
-    padding:18px;
-    border-radius:12px;
-    background:#092b27;
-    border:1px solid #00ff99;
-    text-align:center;
-}
-
-.payment-number strong{
-    display:block;
-    color:#00ff99;
-    margin-bottom:7px;
-}
-
-.payment-number span{
-    display:block;
-    color:#fff;
-    font-size:23px;
+    background:#fff0f2;
+    border-left:4px solid #d90429;
+    padding:13px;
+    margin-top:20px;
     font-weight:bold;
 }
 
-.payment-number small{
-    display:block;
-    color:#ccc;
-    margin-top:6px;
-}
-
-.order-box button{
+.order-btn{
     width:100%;
-    margin-top:22px;
-    padding:15px;
     border:none;
-    border-radius:10px;
-    background:#00c853;
-    color:#fff;
+    background:#d90429;
+    color:white;
+    padding:15px;
+    border-radius:8px;
     font-size:17px;
     font-weight:bold;
+    margin-top:25px;
     cursor:pointer;
+    transition:0.3s;
 }
 
-.order-box button:hover{
-    background:#00a844;
+.order-btn:hover{
+    background:#a90320;
 }
 
-#error{
-    color:#ff5252;
-    display:none;
+/* CONTACT */
+.contact{
     text-align:center;
-    margin-top:12px;
 }
 
+.whatsapp{
+    display:inline-block;
+    margin-top:15px;
+    background:#d90429;
+    color:white;
+    text-decoration:none;
+    padding:14px 25px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+/* FOOTER */
 footer{
+    background:#111;
+    color:white;
     text-align:center;
-    padding:25px;
-    color:#8795a5;
-    font-size:14px;
+    padding:25px 15px;
 }
 
-@media(max-width:850px){
-    .services{
-        grid-template-columns:repeat(2,1fr);
+footer span{
+    color:#ff294d;
+}
+
+/* MOBILE */
+@media(max-width:700px){
+
+    header{
+        flex-direction:column;
+        gap:12px;
+    }
+
+    nav a{
+        margin:0 7px;
+        font-size:14px;
+    }
+
+    .hero{
+        padding:60px 15px;
     }
 
     .hero h1{
-        font-size:37px;
-    }
-}
-
-@media(max-width:550px){
-    nav{
-        display:none;
+        font-size:36px;
     }
 
-    .services{
-        grid-template-columns:1fr;
+    .hero p{
+        font-size:16px;
     }
 
-    .hero h1{
-        font-size:32px;
+    section{
+        padding:45px 15px;
+    }
+
+    .section-title{
+        font-size:28px;
+    }
+
+    .order-box{
+        padding:22px;
     }
 }
 </style>
@@ -309,338 +261,286 @@ footer{
 
 <body>
 
+<!-- HEADER -->
 <header>
+    <div class="logo">Grownex BD</div>
 
-<div class="logo">
-    Grownex <span>BD</span>
-</div>
-
-<nav>
-    <a href="#services">Services</a>
-    <a href="#prices">Prices</a>
-    <a href="#order">Order</a>
-    <a href="#contact">Contact</a>
-</nav>
-
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
 
 <!-- HERO -->
+<section class="hero" id="home">
 
-<section class="hero">
+    <h1>Grownex BD</h1>
 
-<h1>
-    Grow Your <span>Social Media</span>
-</h1>
+    <p>
+        Grow your social media presence with our Facebook,
+        Instagram and YouTube growth services.
+    </p>
 
-<p>
-    Facebook, Instagram, Twitter/X and YouTube growth services
-    from Grownex BD.
-</p>
-
-<a class="btn"
-href="https://wa.me/8801331332053?text=Hello%20Grownex%20BD%2C%20I%20want%20to%20place%20an%20order."
-target="_blank">
-
-📲 Order on WhatsApp
-
-</a>
+    <a href="#order" class="hero-btn">Order Now</a>
 
 </section>
 
 
 <!-- SERVICES -->
-
 <section id="services">
 
-<div class="title">
+    <h2 class="section-title">Our Services</h2>
 
-<h2>🚀 Our Services</h2>
+    <div class="services">
 
-<p>Choose your platform</p>
+        <div class="card">
+            <h3>Facebook</h3>
+            <p>
+                Followers, Bot Followers, Video Views,
+                Post Likes, Story Views, Reactions & Page Reviews.
+            </p>
+        </div>
 
-</div>
+        <div class="card">
+            <h3>Instagram</h3>
+            <p>
+                Instagram Followers and Likes
+                packages available.
+            </p>
+        </div>
 
-<div class="services">
+        <div class="card">
+            <h3>YouTube</h3>
+            <p>
+                YouTube Subscribers, Views and
+                Likes packages available.
+            </p>
+        </div>
 
-<div class="card">
-
-<div class="icon">📘</div>
-
-<h3>Facebook</h3>
-
-<ul>
-<li>Followers</li>
-<li>Page Likes</li>
-<li>Post Likes</li>
-<li>Story Views</li>
-</ul>
-
-<a class="btn"
-href="#order">
-Order
-</a>
-
-</div>
-
-
-<div class="card">
-
-<div class="icon">📸</div>
-
-<h3>Instagram</h3>
-
-<ul>
-<li>Followers</li>
-<li>Likes</li>
-<li>Reel Views</li>
-<li>Story Views</li>
-</ul>
-
-<a class="btn"
-href="#order">
-Order
-</a>
-
-</div>
-
-
-<div class="card">
-
-<div class="icon">𝕏</div>
-
-<h3>Twitter / X</h3>
-
-<ul>
-<li>Followers</li>
-<li>Likes</li>
-<li>Retweets</li>
-<li>Post Views</li>
-</ul>
-
-<a class="btn"
-href="#order">
-Order
-</a>
-
-</div>
-
-
-<div class="card">
-
-<div class="icon">▶️</div>
-
-<h3>YouTube</h3>
-
-<ul>
-<li>Subscribers</li>
-<li>Views</li>
-<li>Likes</li>
-<li>Channel Services</li>
-</ul>
-
-<a class="btn"
-href="#order">
-Order
-</a>
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
 
+<!-- ORDER -->
+<section class="order-section" id="order">
+
+    <h2 class="section-title">Place Your Order</h2>
+
+    <div class="order-box">
+
+        <label for="service">Select Service</label>
+
+        <select id="service">
+
+            <optgroup label="Facebook">
+
+                <option value="Facebook Followers - 1K - ৳80">
+                    Facebook Followers — 1K — ৳80
+                </option>
+
+                <option value="Facebook Followers - 5K - ৳300">
+                    Facebook Followers — 5K — ৳300
+                </option>
+
+                <option value="Facebook Followers - 10K - ৳550">
+                    Facebook Followers — 10K — ৳550
+                </option>
+
+                <option value="Facebook Bot Followers - 1K - ৳30">
+                    Facebook Bot Followers — 1K — ৳30
+                </option>
+
+                <option value="Facebook Bot Followers - 5K - ৳150">
+                    Facebook Bot Followers — 5K — ৳150
+                </option>
+
+                <option value="Facebook Bot Followers - 10K - ৳250">
+                    Facebook Bot Followers — 10K — ৳250
+                </option>
+
+                <option value="Facebook Video Views - 1K - ৳25">
+                    Facebook Video Views — 1K — ৳25
+                </option>
+
+                <option value="Facebook Post Likes - 1K - ৳40">
+                    Facebook Post Likes — 1K — ৳40
+                </option>
+
+                <option value="Facebook Story Views - 1K - ৳50">
+                    Facebook Story Views — 1K — ৳50
+                </option>
+
+                <option value="Facebook Story Views - 5K - ৳200">
+                    Facebook Story Views — 5K — ৳200
+                </option>
+
+                <option value="Facebook Post Care React - 500 - ৳25">
+                    Facebook Post Care React — 500 — ৳25
+                </option>
+
+                <option value="Facebook Post Care React - 1000 - ৳40">
+                    Facebook Post Care React — 1000 — ৳40
+                </option>
+
+                <option value="Facebook Post Love React - 500 - ৳30">
+                    Facebook Post Love React — 500 — ৳30
+                </option>
+
+                <option value="Facebook Post Love React - 1000 - ৳50">
+                    Facebook Post Love React — 1000 — ৳50
+                </option>
+
+                <option value="Facebook Page Review - 10 - ৳40">
+                    Facebook Page Review — 10 — ৳40
+                </option>
+
+                <option value="Facebook Page Review - 20 - ৳70">
+                    Facebook Page Review — 20 — ৳70
+                </option>
+
+            </optgroup>
 
 
+            <optgroup label="Instagram">
 
-<!-- ORDER SYSTEM -->
+                <option value="Instagram Followers - 1K - ৳40">
+                    Instagram Followers — 1K — ৳40
+                </option>
 
-<section id="order" class="order-section">
+                <option value="Instagram Followers - 5K - ৳180">
+                    Instagram Followers — 5K — ৳180
+                </option>
 
-<div class="order-box">
+                <option value="Instagram Likes - 1K - ৳20">
+                    Instagram Likes — 1K — ৳20
+                </option>
 
-<h2>🛒 Place Your Order</h2>
+                <option value="Instagram Likes - 5K - ৳80">
+                    Instagram Likes — 5K — ৳80
+                </option>
 
-<p class="subtitle">
-Payment করার পর Transaction ID দিয়ে Order Submit করুন
-</p>
-
-
-<label>📦 Select Service</label>
-
-<select id="service">
-  <option value="">-- Select Service --</option>
-
-  <!-- FACEBOOK -->
-  <option value="Facebook Followers 1K BD|80">Facebook Followers — 1K ৳80</option>
-  <option value="Facebook Followers 5K BD|300">Facebook Followers — 5K ৳300</option>
-  <option value="Facebook Followers 10K BD|550">Facebook Followers — 10K ৳550</option>
-
-  <option value="Facebook Bot Followers 1K|30">Facebook Bot Followers — 1K ৳30</option>
-  <option value="Facebook Bot Followers 5K|150">Facebook Bot Followers — 5K ৳150</option>
-  <option value="Facebook Bot Followers 10K|250">Facebook Bot Followers — 10K ৳250</option>
-
-  <option value="Facebook Video Views 1K|25">Facebook Video Views — 1K ৳25</option>
-  <option value="Facebook Post Likes 1K|40">Facebook Post Likes — 1K ৳40</option>
-
-  <option value="Facebook Story Views 1K|50">Facebook Story Views — 1K ৳50</option>
-  <option value="Facebook Story Views 5K|200">Facebook Story Views — 5K ৳200</option>
-
-  <option value="Facebook Care React 500|25">Facebook Care React — 500 ৳25</option>
-  <option value="Facebook Care React 1000|40">Facebook Care React — 1K ৳40</option>
-
-  <option value="Facebook Love React 500|30">Facebook Love React — 500 ৳30</option>
-  <option value="Facebook Love React 1000|50">Facebook Love React — 1K ৳50</option>
-
-  <option value="Facebook Page Review 10|40">Facebook Page Review — 10 ৳40</option>
-  <option value="Facebook Page Review 20|70">Facebook Page Review — 20 ৳70</option>
+            </optgroup>
 
 
-  <!-- INSTAGRAM -->
-  <option value="Instagram Followers 1K|40">Instagram Followers — 1K ৳40</option>
-  <option value="Instagram Followers 5K|180">Instagram Followers — 5K ৳180</option>
+            <optgroup label="YouTube">
 
-  <option value="Instagram Likes 1K|20">Instagram Likes — 1K ৳20</option>
-  <option value="Instagram Likes 5K|80">Instagram Likes — 5K ৳80</option>
+                <option value="YouTube Subscribers - 1K - ৳4500">
+                    YouTube Subscribers — 1K — ৳4500
+                </option>
 
+                <option value="YouTube Subscribers - 10K - ৳45000">
+                    YouTube Subscribers — 10K — ৳45000
+                </option>
 
-  <!-- YOUTUBE -->
-  <option value="YouTube Subscribers 1K|4500">YouTube Subscribers — 1K ৳4500</option>
-  <option value="YouTube Subscribers 10K|45000">YouTube Subscribers — 10K ৳45000</option>
+                <option value="YouTube Views - 1K - ৳200">
+                    YouTube Views — 1K — ৳200
+                </option>
 
-  <option value="YouTube Views 1K|200">YouTube Views — 1K ৳200</option>
-  <option value="YouTube Views 5K|800">YouTube Views — 5K ৳800</option>
+                <option value="YouTube Views - 5K - ৳800">
+                    YouTube Views — 5K — ৳800
+                </option>
 
-  <option value="YouTube Likes 1K|80">YouTube Likes — 1K ৳80</option>
-  <option value="YouTube Likes 5K|350">YouTube Likes — 5K ৳350</option>
+                <option value="YouTube Likes - 1K - ৳80">
+                    YouTube Likes — 1K — ৳80
+                </option>
 
-</select>
+                <option value="YouTube Likes - 5K - ৳350">
+                    YouTube Likes — 5K — ৳350
+                </option>
 
+            </optgroup>
 
-
-<label>🔗 Your Profile/Post Link</label>
-
-<input
-type="url"
-id="link"
-placeholder="https://facebook.com/yourlink"
->
-
-
-<label>💳 Payment Method</label>
-
-<select id="payment">
-
-<option value="">
--- Select Payment Method --
-</option>
-
-<option value="bKash">bKash</option>
-<option value="Nagad">Nagad</option>
-<option value="Rocket">Rocket</option>
-
-</select>
+        </select>
 
 
-<!-- PAYMENT NUMBER -->
+        <label for="link">
+            Profile / Post / Video Link
+        </label>
 
-<div class="payment-number">
-
-<strong>💰 Payment Number</strong>
-
-<span>01305071694</span>
-
-<small>
-এই নম্বরে Send Money করুন।
-Payment করার পর Transaction ID দিন।
-</small>
-
-</div>
+        <input
+            type="url"
+            id="link"
+            placeholder="https://facebook.com/..."
+            required
+        >
 
 
-<label>
-🆔 Transaction ID
-<span style="color:red">*</span>
-</label>
+        <label for="payment">
+            Payment Method
+        </label>
 
-<input
-type="text"
-id="trx"
-placeholder="আপনার Transaction ID লিখুন"
->
+        <select id="payment">
 
+            <option value="bKash">bKash</option>
+            <option value="Nagad">Nagad</option>
+            <option value="Rocket">Rocket</option>
 
-<button onclick="placeOrder()">
-
-💬 Payment Completed - Order via WhatsApp
-
-</button>
+        </select>
 
 
-<p id="error">
+        <div class="payment-number">
+            Payment Number: 01305071694
+        </div>
 
-⚠️ সব তথ্য পূরণ করুন এবং Transaction ID দিন।
 
-</p>
+        <label for="trx">
+            Transaction ID
+        </label>
 
-</div>
+        <input
+            type="text"
+            id="trx"
+            placeholder="Enter your Transaction ID"
+            required
+        >
+
+
+        <button class="order-btn" onclick="sendOrder()">
+            Order via WhatsApp
+        </button>
+
+    </div>
 
 </section>
 
 
 <!-- CONTACT -->
+<section class="contact" id="contact">
 
-<section id="contact" class="contact">
+    <h2 class="section-title">Contact Us</h2>
 
-<div class="title">
+    <p>
+        Need help? Contact us on WhatsApp.
+    </p>
 
-<h2>📲 WhatsApp Order</h2>
-
-<p>
-Order করতে WhatsApp-এ মেসেজ করুন
-</p>
-
-</div>
-
-
-<div class="whatsapp">
-
-01331332053
-
-</div>
-
-
-<a class="btn"
-href="https://wa.me/8801331332053?text=Hello%20Grownex%20BD%2C%20I%20want%20to%20place%20an%20order."
-target="_blank">
-
-💬 Message on WhatsApp
-
-</a>
-
-
-<p style="margin-top:20px;color:#9eabb9;">
-
-⚡ Fast Delivery | Best Price
-
-</p>
+    <a
+        class="whatsapp"
+        href="https://wa.me/8801331332053"
+        target="_blank"
+    >
+        WhatsApp: 01331332053
+    </a>
 
 </section>
 
 
+<!-- FOOTER -->
 <footer>
-
-© 2026 Grownex BD — Your Growth, Our Service
-
+    <p>
+        © 2026 <span>Grownex BD</span> — All Rights Reserved.
+    </p>
 </footer>
 
 
 <script>
 
-function placeOrder(){
+function sendOrder(){
 
-    const serviceData =
+    const service =
         document.getElementById("service").value;
 
     const link =
@@ -652,74 +552,51 @@ function placeOrder(){
     const trx =
         document.getElementById("trx").value.trim();
 
-    const error =
-        document.getElementById("error");
 
-
-    /* CHECK ALL REQUIRED INFORMATION */
-
-    if(!serviceData || !link || !payment || !trx){
-
-        error.style.display = "block";
-
+    if(link === ""){
+        alert("Please enter your Profile / Post / Video Link.");
         return;
     }
 
 
-    error.style.display = "none";
+    if(trx === ""){
+        alert("Please enter your Transaction ID.");
+        return;
+    }
 
-
-    /* SERVICE + PRICE */
-
-    const serviceParts =
-        serviceData.split("|");
-
-    const service =
-        serviceParts[0];
-
-    const price =
-        serviceParts[1];
-
-
-    /* WHATSAPP MESSAGE */
 
     const message =
-`🚀 Grownex BD - NEW ORDER
+`🔥 GROWNEX BD ORDER
 
-📦 Service: ${service}
-💰 Price: ৳${price}
+📌 Service:
+${service}
 
-🔗 Profile/Post Link:
+🔗 Profile/Post/Video Link:
 ${link}
 
-💳 Payment Method: ${payment}
+💳 Payment Method:
+${payment}
 
 📱 Payment Number:
 01305071694
 
-🆔 Transaction ID:
+🧾 Transaction ID:
 ${trx}
 
 ✅ Payment Completed
 
-📩 Please process my order.`;
+Please check my order.`;
 
-
-    /* ORDER WHATSAPP NUMBER */
-
+    
     const whatsappURL =
         "https://wa.me/8801331332053?text=" +
         encodeURIComponent(message);
 
 
-    window.open(
-        whatsappURL,
-        "_blank"
-    );
-
+    window.open(whatsappURL, "_blank");
 }
 
 </script>
 
 </body>
-</html>
+                    </html>
